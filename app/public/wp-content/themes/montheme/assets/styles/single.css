@@ -1,0 +1,240 @@
+/* Style de la carte de l'étude de cas */
+
+.cas {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  color: white;
+  margin-bottom: 16px;
+  margin-top: 200px;
+  background-color: grey;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 100px;
+}
+
+.cas_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 32px;
+}
+
+.link {
+  position: absolute;
+  right: 32px;
+  bottom: 24px;
+  display: flex;
+}
+
+.image_link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Style de la section des chiffres des résultats du projet */
+
+.title_icon {
+  display: flex;
+}
+
+.title_icon img {
+  margin-top: -324px;
+  margin-right: 12px;
+  width: 78px;
+}
+
+.resultats {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
+}
+
+
+.resultats_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.chiffres {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  width: 120%;
+}
+
+.cases {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: #f7f9fb;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style de la section de présentation du besoins et des solutions */
+
+.besoin_solution {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.besoin {
+  width: 50%;
+  background-color: #282826;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  color: white;
+}
+
+.solution {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+
+.besoin_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-right: 54px;
+  text-align: right;
+}
+
+.solution_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 54px;
+  text-align: left;
+}
+
+.button_besoin {
+  background-color: #ee6021;
+  color: white;
+  padding: 16px 32px 16px 32px;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  border: none;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-bottom: 72px;
+  margin-top: 12px;
+  transition: 0.5s;
+}
+
+.button_besoin:hover {
+  background-image: linear-gradient(90deg, rgba(239, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+/* Style des explications des solution */
+
+.explications {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.explications_left {
+  display: flex;
+  width: 45%;
+  align-items: flex-start;
+}
+
+.explications_left_content {
+  margin-top: -30px;
+}
+
+.explications_left img {
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+}
+
+.explications_right {
+  display: flex;
+  background-color: black;
+  width: 45%;
+  height: 500px;
+}
+
+.explications_section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/* Style de la section de découverte d'autres études de cas */
+
+.decouvrir {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.autre_etudes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.autre_etudes_content {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  margin-bottom: 64px;
+}
+
+.autre_etudes_content_image {
+  display: flex;
+  width: 100%;
+  height: 220px;
+  background-color: aqua;
+}
+
+.cases_content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: auto;
+}
+
+.category_little {
+  background-color: rgb(237, 96, 34, 0.7);
+  width: fit-content;
+  border-radius: 40px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  height: fit-content;
+  color: white;
+  margin-top: auto;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.category_little p {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px 10px 0px 10px;
+  line-height: 0;
+}

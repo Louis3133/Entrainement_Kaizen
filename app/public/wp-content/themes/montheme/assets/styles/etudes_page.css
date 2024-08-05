@@ -1,0 +1,78 @@
+/* Style de la section d'introduction */
+
+.intro {
+  display: flex;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.intro_text {
+  width: 78%;
+  margin-top: -24px;
+}
+
+/* Style de la section de filtre des études */
+
+.etude_navigation{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  justify-content: center;
+  gap: 18px;
+}
+
+.nav_button{
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 16px 22px 16px 22px;
+  border: 1px #c6c7c9 solid;
+  background-color: white;
+  border-radius: 40px;
+  margin-bottom: 64px;
+  cursor: pointer;
+
+}
+
+/* Style des cartes des différentes études de cas */
+
+.etude {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  justify-content: end;
+
+}
+
+.etude:hover{
+  background-image: linear-gradient(90deg, rgba(239, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.etude_content {
+  margin-left: 48px;
+  margin-bottom: 16px;
+}
+
+/* Style des pastiles de catégorie des études de cas */
+
+.category {
+  background-color: rgb(237, 96, 34, 0.7);
+  width: fit-content;
+  border-radius: 40px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.category p {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,1 @@
+2024/08/02 08:43:05 [error] 77657#0: *296 directory index of "/Users/louisledoussal/Local Sites/montheme/app/public/wp-content/themes/montheme/assets/images/" is forbidden, client: ::1, server: , request: "GET /wp-content/themes/montheme/assets/images/ HTTP/1.1", host: "localhost:10028", referrer: "http://localhost:10028/case_study/euuuh/"
